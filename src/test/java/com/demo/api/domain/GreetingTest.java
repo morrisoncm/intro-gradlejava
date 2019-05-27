@@ -1,4 +1,4 @@
-package com.demo.gradle.domain;
+package com.demo.api.domain;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ class GreetingTest {
 		Greeting greeting = new Greeting("message.txt", "UTF-8");
 		Assumptions.assumeTrue(greeting.getMessage().equals("Hello World!"));
 	}
-	
+
 	@Test
 	void testGetMessageIOException() {
 		Assertions.assertThrows(NullPointerException.class, () -> new Greeting("wrongFileName", "UTF-8"));
