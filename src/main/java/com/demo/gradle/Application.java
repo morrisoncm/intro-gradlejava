@@ -13,8 +13,8 @@ public class Application {
 
 	public static void main(String args[]) {
 		try {
-			Greeting greeting = new Greeting("fileTest.txt", "UTF-8");
-			logger.info("Application message: " + greeting.getMessage());
+			Greeting greeting = new Greeting("message.txt", "UTF-8");
+			logger.info(greeting.getMessage());
 		} catch (IOException ex) {
 			logger.error("Application()", ex.getMessage(), ex);
 		}
