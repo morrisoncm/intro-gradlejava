@@ -9,14 +9,14 @@ import com.demo.api.domain.Greeting;
 
 public class Application {
 
-	private static final Logger logger = LoggerFactory.getLogger(Application.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String args[]) {
 		try {
 			Greeting greeting = new Greeting("message.txt", "UTF-8");
-			logger.info(greeting.getMessage());
+			LOGGER.info(greeting.getMessage());
 		} catch (IOException ex) {
-			logger.error("Application()", ex.getMessage(), ex);
+			LOGGER.error("Application()", ex);
 		}
 	}
 }
