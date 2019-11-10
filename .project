@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>template-api</name>
-	<comment>Project template-api created by Buildship.</comment>
+	<name>template-springboot</name>
+	<comment>Project template-springboot created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
