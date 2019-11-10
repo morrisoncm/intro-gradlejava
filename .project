@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>intro-gradlejava</name>
-	<comment>Project intro-gradlejava created by Buildship.</comment>
+	<name>intro-gradle-java</name>
+	<comment>Project intro-gradle-java created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
