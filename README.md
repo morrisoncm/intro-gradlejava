@@ -5,7 +5,7 @@ Sample Gradle Spring Boot Rest API with Junit 5.
 Download and install java <https://jdk.java.net/>  
 Setting JAVA_HOME  <https://docs.oracle.com/cd/E19182-01/821-0917/inst_jdk_javahome_t/index.html>  
 Download Eclipse <https://www.eclipse.org/downloads/packages/>  
-Download and Install Gradle Gradle <https://docs.gradle.org/current/userguide/installation.html>  
+Download and Install Gradle <https://docs.gradle.org/current/userguide/installation.html>  
 
 ## Running the application
 Clone or download the project  
