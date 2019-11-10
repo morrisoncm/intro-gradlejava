@@ -6,3 +6,6 @@ build
 /bin/
 .classpath
 .settings
+    
+# Compiled class file
+*.class

@@ -1,4 +1,4 @@
-package com.demo.api.exceptionhandler;
+package com.demo.template;
 
 import org.junit.jupiter.api.Test;
 
