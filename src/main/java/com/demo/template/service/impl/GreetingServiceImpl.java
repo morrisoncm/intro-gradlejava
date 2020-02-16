@@ -9,14 +9,14 @@ import com.demo.template.service.GreetingService;
 @Service
 public class GreetingServiceImpl implements GreetingService {
 
-    @Override
-    public HelloWorld sayHelloWorld() {
-        return new HelloWorld("Hello World!");
-    }
+	@Override
+	public HelloWorld sayHelloWorld() {
+		return new HelloWorld("Hello World!");
+	}
 
-    @Override
-    public HelloWorld sayHelloWorldToUser(User user) {
-        String message = "Hello World to " + user.getFirstName() + " " + user.getLastName();
-        return new HelloWorld(message);
-    }
+	@Override
+	public HelloWorld sayHelloWorldToUser(User user) {
+		String message = "Hello World to " + user.getFirstName() + " " + user.getLastName();
+		return new HelloWorld(message);
+	}
 }
