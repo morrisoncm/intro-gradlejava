@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.demo.template.domain.HelloWorld;
+import com.demo.template.domain.Message;
 import com.demo.template.domain.User;
 import com.demo.template.service.GreetingService;
 
@@ -18,12 +18,12 @@ public class GreetingController {
 	private GreetingService greetingService;
 
 	@GetMapping("/greeting")
-	public HelloWorld sayHelloWorld() {
+	public Message sayHelloWorld() {
 		return greetingService.sayHelloWorld();
 	}
 
 	@PostMapping("/greeting")
-	public HelloWorld sayHelloWorldToUser(@Validated @RequestBody User user) {
+	public Message sayHelloWorldToUser(@Validated @RequestBody User user) {
 		return greetingService.sayHelloWorldToUser(user);
 	}
 
