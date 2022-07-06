@@ -2,10 +2,10 @@ package com.demo.template;
 
 import org.junit.jupiter.api.Test;
 
-class BaseEntityExceptionHandlerTest {
+class ApplicationTest {
 
 	@Test
-	public void testHandleConflict() {
+	public void testMain() {
 		// Unit test to go here.
 	}
 }
