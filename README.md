@@ -21,14 +21,14 @@ Sample Gradle Spring Boot Rest API with Junit 5.
 
 - Clone or download the project
 - To run the application from Terminal / Command Prompt
-- Change directory to the project root directory and type **gradle build**
+- Change directory to the project root directory and type `gradle build`
 - The jar is located in build/libs/ under the root directory
 
 ### Running the application
 
 - Clone or download the project
 - To run the application from Terminal / Command Prompt
-- Change directory to the project root directory and type **gradle bootRun**
+- Change directory to the project root directory and type `gradle bootRun`
 - To run the application inside Eclipse
 - The starting point is Application.java
 - Right click the Application.java and select Run As ->Java Application  
